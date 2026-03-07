@@ -113,6 +113,8 @@ body {
 	border-radius: 5px;
 	font-weight: bold;
 }
+
+
 .blog-grid {
 	display: flex;
 	gap: 10px;

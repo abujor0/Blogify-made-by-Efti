@@ -1,6 +1,6 @@
 * {
 	margin: 0;
-	padding: 0;
+	padding: 5px;
 	box-sizing: border-box;
 }
 :root {
@@ -83,6 +83,65 @@ body {
 .button-blue {
 	background-color: #f5f3ff;
 	color: #3538CD;
+	padding: 5px 10px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.button-pink {
+	background-color: #fdf2fa;
+	color: #c11574;
+	padding: 5px 10px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.text
+{
+
+	margin: 10px;
+}
+
+.keyelement
+{
+	font-size: 20px;
+	margin: 10px;
+}
+
+.keypara
+{
+ margin: 5px;
+}
+
+.posts-heading
+{
+	font-size: 30px;
+	margin: 10px;
+	padding: 0;
+	color: var(--secondary-color);
+}
+
+/* All Blog Post Section Styles Start */
+.all-blogs {
+	display: flex;
+	gap: 20px;
+}
+.blog-card {
+	width: 380px;
+}
+.blog-card img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.button-lightblue {
+	background-color: #f0f9ff;
+	color: #026aa2;
 	padding: 5px 10px;
 	border: none;
 	cursor: pointer;
