@@ -180,3 +180,32 @@ body
 {
     background-color: #f3ebeb;
 }
+
+/* Footer Styles */
+.footer {
+	display: flex;
+	padding: 20px 0;
+	gap: 20px;
+}
+.border-top {
+	border-top: 1px solid var(--border-color);
+}
+.footer-menu {
+	display: flex;
+	gap: 20px;
+	list-style: none;
+}
+.footer-menu li a {
+	text-decoration: none;
+	color: var(--secondary-color);
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+a:visited {
+	color: inherit;
+}
+.margin-top {
+	margin-top: 20px;
+}

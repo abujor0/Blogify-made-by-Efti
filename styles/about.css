@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 5px;
+	box-sizing: border-box;
+}
+:root {
+	/* Color Variables */
+	--primary-color: #340d83;
+	--secondary-color: #1a1a1a;
+	--border-color: #e3e1e1;
+	/* Font Variables */
+	--primaryFontSize: 1.5rem;
+	--description-color: #667085;
+}
+body {
+	font-family: Arial, sans-serif;
+	color: #333;
+
+}
+
+.blog-author {
+	color: #6941c6;
+	font-size: 14px;
+}
+.blog-description {
+    color: var(--description-color);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+site-title {
+	font-size: var(--primaryFontSize);
+	color: var(--secondary-color);
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 0;
+}
+.menu {
+	display: flex;
+	list-style: none;
+	gap: 20px;
+}
+.menu li a {
+	text-decoration: none;
+	color: var(--secondary-color);
+}
+.border-b {
+	border-bottom: 1px solid var(--border-color);
+}
+body
+{
+    background-color: #f3ebeb;
+}
+/* Footer Styles */
+.footer {
+	display: flex;
+	padding: 20px 0;
+	gap: 20px;
+}
+.border-top {
+	border-top: 1px solid var(--border-color);
+}
+.footer-menu {
+	display: flex;
+	gap: 20px;
+	list-style: none;
+}
+.footer-menu li a {
+	text-decoration: none;
+	color: var(--secondary-color);
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+a:visited {
+	color: inherit;
+}
+.margin-top {
+	margin-top: 20px;
+}
