@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 5px;
+	box-sizing: border-box;
+}
+:root {
+	/* Color Variables */
+	--primary-color: #340d83;
+	--secondary-color: #1a1a1a;
+	--border-color: #e3e1e1;
+	/* Font Variables */
+	--primaryFontSize: 1.5rem;
+	--description-color: #667085;
+}
+body {
+	font-family: Arial, sans-serif;
+	color: #333;
+
+}
+
+.blog-author {
+	color: #6941c6;
+	font-size: 14px;
+}
+
+/************************************************
+ * Header Styles 
+ ************************************************/
+.site-title {
+	font-size: var(--primaryFontSize);
+	color: var(--secondary-color);
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 0;
+}
+.menu {
+	display: flex;
+	list-style: none;
+	gap: 20px;
+}
+.menu li a {
+	text-decoration: none;
+	color: var(--secondary-color);
+}
+.border-b {
+	border-bottom: 1px solid var(--border-color);
+}
+
+.button-green {
+	background-color: #ecfdf3;
+	color: #027a48;
+	padding: 5px 10px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.button-red {
+	background-color: #fef3f2;
+	color: #b42318;
+	padding: 5px 10px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+
+.button-violet {
+	background-color: #f5f3ff;
+	color: #7c3aed;
+	padding: 5px 10px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+
+.button-blue {
+	background-color: #f5f3ff;
+	color: #3538CD;
+	padding: 5px 10px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.button-pink {
+	background-color: #fdf2fa;
+	color: #c11574;
+	padding: 5px 10px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.text
+{
+
+	margin: 10px;
+}
+
+.keyelement
+{
+	font-size: 20px;
+	margin: 10px;
+}
+
+.keypara
+{
+ margin: 5px;
+}
+
+.posts-heading
+{
+	font-size: 30px;
+	margin: 10px;
+	padding: 0;
+	color: var(--secondary-color);
+}
+
+/* All Blog Post Section Styles Start */
+.all-blogs {
+	display: flex;
+	gap: 20px;
+}
+.blog-card {
+	width: 380px;
+}
+.blog-card img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.button-lightblue {
+	background-color: #f0f9ff;
+	color: #026aa2;
+	padding: 5px 10px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	font-weight: bold;
+}
